@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   
   s.name          = "ZXWaterFallLayout"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.summary       = "一个瀑布流布局"
   s.platform      = :ios, "7.0"
 

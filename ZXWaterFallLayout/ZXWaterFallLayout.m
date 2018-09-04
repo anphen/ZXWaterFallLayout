@@ -33,7 +33,6 @@
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
 
 {
-    NSLog(@"==== %s ====", __func__);
     if (CGSizeEqualToSize(newBounds.size, self.collectionView.bounds.size)) {
         return NO;
     }
@@ -42,7 +41,6 @@
 
 - (void)prepareLayout
 {
-    NSLog(@"==== %s ====", __func__);
     [super prepareLayout];
    
     [self.heightArray removeAllObjects];
@@ -78,13 +76,11 @@
 
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect
 {
-    NSLog(@"==== %s ====", __func__);
     return self.attributesArray;
 }
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"==== %s ====", __func__);
 
     UICollectionViewLayoutAttributes *attribute = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     
