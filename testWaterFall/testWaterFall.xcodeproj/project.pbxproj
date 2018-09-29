@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4703F5DA9255C57D2C462AF1 /* libPods-testWaterFall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87209800F4C1D83E476708DE /* libPods-testWaterFall.a */; };
+		6E46F909215FDA1900C4A3AF /* ZXWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F907215FDA1900C4A3AF /* ZXWaterFallLayout.m */; };
 		6EF2AC2221216824008D9D89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AC2121216824008D9D89 /* AppDelegate.m */; };
 		6EF2AC2521216824008D9D89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AC2421216824008D9D89 /* ViewController.m */; };
 		6EF2AC2821216824008D9D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2AC2621216824008D9D89 /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		6EF2AC4521216824008D9D89 /* testWaterFallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AC4421216824008D9D89 /* testWaterFallUITests.m */; };
 		6EF2AC532121687D008D9D89 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2AC522121687D008D9D89 /* data.plist */; };
 		6EF2AC5C21216C97008D9D89 /* ZXWaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AC5B21216C97008D9D89 /* ZXWaterFallController.m */; };
-		6EF2AC5F21216F38008D9D89 /* ZXWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AC5E21216F38008D9D89 /* ZXWaterFallLayout.m */; };
 		6EF2AD5E21217671008D9D89 /* ZXWaterFallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AD5D21217671008D9D89 /* ZXWaterFallCell.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		6860EF4A7ED9B97237817735 /* Pods-testWaterFall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testWaterFall.release.xcconfig"; path = "Pods/Target Support Files/Pods-testWaterFall/Pods-testWaterFall.release.xcconfig"; sourceTree = "<group>"; };
+		6E46F907215FDA1900C4A3AF /* ZXWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWaterFallLayout.m; sourceTree = "<group>"; };
+		6E46F908215FDA1900C4A3AF /* ZXWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWaterFallLayout.h; sourceTree = "<group>"; };
 		6EF2AC1D21216824008D9D89 /* testWaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF2AC2021216824008D9D89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EF2AC2121216824008D9D89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,8 +62,6 @@
 		6EF2AC522121687D008D9D89 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		6EF2AC5A21216C97008D9D89 /* ZXWaterFallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWaterFallController.h; sourceTree = "<group>"; };
 		6EF2AC5B21216C97008D9D89 /* ZXWaterFallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWaterFallController.m; sourceTree = "<group>"; };
-		6EF2AC5D21216F38008D9D89 /* ZXWaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWaterFallLayout.h; sourceTree = "<group>"; };
-		6EF2AC5E21216F38008D9D89 /* ZXWaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWaterFallLayout.m; sourceTree = "<group>"; };
 		6EF2AD5C21217671008D9D89 /* ZXWaterFallCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWaterFallCell.h; sourceTree = "<group>"; };
 		6EF2AD5D21217671008D9D89 /* ZXWaterFallCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWaterFallCell.m; sourceTree = "<group>"; };
 		87209800F4C1D83E476708DE /* libPods-testWaterFall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testWaterFall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E46F906215FDA1900C4A3AF /* ZXWaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6E46F907215FDA1900C4A3AF /* ZXWaterFallLayout.m */,
+				6E46F908215FDA1900C4A3AF /* ZXWaterFallLayout.h */,
+			);
+			name = ZXWaterFallLayout;
+			path = ../../ZXWaterFallLayout;
+			sourceTree = "<group>";
+		};
 		6EF2AC1421216824008D9D89 = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +129,13 @@
 		6EF2AC1F21216824008D9D89 /* testWaterFall */ = {
 			isa = PBXGroup;
 			children = (
+				6E46F906215FDA1900C4A3AF /* ZXWaterFallLayout */,
 				6EF2AC2021216824008D9D89 /* AppDelegate.h */,
 				6EF2AC2121216824008D9D89 /* AppDelegate.m */,
 				6EF2AC2321216824008D9D89 /* ViewController.h */,
 				6EF2AC2421216824008D9D89 /* ViewController.m */,
 				6EF2AC5A21216C97008D9D89 /* ZXWaterFallController.h */,
 				6EF2AC5B21216C97008D9D89 /* ZXWaterFallController.m */,
-				6EF2AC5D21216F38008D9D89 /* ZXWaterFallLayout.h */,
-				6EF2AC5E21216F38008D9D89 /* ZXWaterFallLayout.m */,
 				6EF2AD5C21217671008D9D89 /* ZXWaterFallCell.h */,
 				6EF2AD5D21217671008D9D89 /* ZXWaterFallCell.m */,
 				6EF2AC2621216824008D9D89 /* Main.storyboard */,
@@ -330,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EF2AC5F21216F38008D9D89 /* ZXWaterFallLayout.m in Sources */,
+				6E46F909215FDA1900C4A3AF /* ZXWaterFallLayout.m in Sources */,
 				6EF2AC2521216824008D9D89 /* ViewController.m in Sources */,
 				6EF2AC3021216824008D9D89 /* main.m in Sources */,
 				6EF2AC5C21216C97008D9D89 /* ZXWaterFallController.m in Sources */,
